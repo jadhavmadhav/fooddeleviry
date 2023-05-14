@@ -19,7 +19,7 @@
     "react-multi-carousel": "^2.8.3",
     "react-router-dom": "^6.11.0",
     "redux": "^4.2.1",
-    "redux-saga": "^1.2.3"
+    "redux-saga": "^1.2.3"    
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

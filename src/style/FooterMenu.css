@@ -1,0 +1,21 @@
+
+.cart-header{
+    height: 50px;
+    display: flex;
+    align-items: center;  
+    font-size: 24px;
+    font-weight:700;
+    gap:15px;
+    text-transform: capitalize;
+}
+
+.cart-back-icon{
+  outline: none;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  width: 25px;
+  overflow: hidden;
+}

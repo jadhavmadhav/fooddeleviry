@@ -1,0 +1,54 @@
+.home_header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.hamburger_icon {
+  /* padding: 2px; */
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.hamburger_icon h1 {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  border-radius: 30%;
+}
+
+.hamburger_icon:active {
+  background-color: rgba(255, 255, 255, 0.434);
+}
+
+.home-header h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.cartSection {
+  position: relative;
+}
+.cart_image {
+  width: 30px;
+}
+.cart_image:active {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.cart_count {
+  width: 20px;
+  height: 20px;
+  background-color: #4fa0ff;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 25%; 
+  top: -10%;
+   text-align: center;
+   font-size: 12px;
+}

@@ -1,0 +1,30 @@
+
+.container{
+  
+}
+
+.form{
+height: 70vh;
+}
+
+.input{
+    line-height: 50px;
+    background-color: #232326;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 16px;
+    padding: 0px 10px;
+    border-radius: 4px;
+}
+
+.err{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(254, 88, 88);  
+    position: relative;
+    top:-5px; 
+}

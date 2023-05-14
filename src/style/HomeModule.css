@@ -1,0 +1,42 @@
+.home-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80% 20%;
+  /* gap: 15px;  */
+}
+
+ 
+
+.home-button {
+  outline: none;
+  border: none;
+  background-color: #4fa0ff;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 60px;
+  line-height: 60px;
+  cursor: pointer; 
+}
+
+
+.home-section-title {
+  margin: 17px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #bebec3;
+}
+
+.home-items-cards {
+  width: 100%;
+  position: relative; 
+  display: flex;
+  gap: 5px;
+  overflow: auto;
+  scrollbar-width: none;
+  padding: 10px;
+}
+.home-items-cards::-webkit-scrollbar {
+  width: 0px;
+}

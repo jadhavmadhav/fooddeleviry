@@ -1,0 +1,32 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.app-container {
+  background-color: #000000;
+  padding: 0px 8px;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-rows: 50px 1fr 50px;
+}
+.main-header {
+  /* height: ; */
+}
+.main-content {
+  height: 100%;
+  overflow: auto;
+}
+
+.slider {
+  position: absolute;
+  left: -50%;
+  top: 0%;
+  z-index: 10;
+  transition: 1s;
+}
+
+.main-footer { 
+  /* height: 100%; */
+}
